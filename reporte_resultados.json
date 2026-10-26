@@ -1,0 +1,1081 @@
+{
+  "encabezado": {
+    "curso": "METAHEURÍSTICAS",
+    "actividad": "Actividad Autónoma 1",
+    "titulo": "Selección de equipos con una mochila de 100 elementos",
+    "unidad": "Unidad 1 Fundamentos de optimización y heurísticas básicas",
+    "tema": "Tema 1 Formulación de problemas y soluciones de referencia"
+  },
+  "semilla_datos": 42,
+  "n_elementos": 100,
+  "capacidad": 250,
+  "items": [
+    {
+      "id": 1,
+      "nombre": "Equipo 1",
+      "peso": 4,
+      "utilidad": 13
+    },
+    {
+      "id": 2,
+      "nombre": "Equipo 2",
+      "peso": 9,
+      "utilidad": 41
+    },
+    {
+      "id": 3,
+      "nombre": "Equipo 3",
+      "peso": 8,
+      "utilidad": 27
+    },
+    {
+      "id": 4,
+      "nombre": "Equipo 4",
+      "peso": 4,
+      "utilidad": 96
+    },
+    {
+      "id": 5,
+      "nombre": "Equipo 5",
+      "peso": 18,
+      "utilidad": 21
+    },
+    {
+      "id": 6,
+      "nombre": "Equipo 6",
+      "peso": 19,
+      "utilidad": 64
+    },
+    {
+      "id": 7,
+      "nombre": "Equipo 7",
+      "peso": 2,
+      "utilidad": 13
+    },
+    {
+      "id": 8,
+      "nombre": "Equipo 8",
+      "peso": 3,
+      "utilidad": 37
+    },
+    {
+      "id": 9,
+      "nombre": "Equipo 9",
+      "peso": 8,
+      "utilidad": 74
+    },
+    {
+      "id": 10,
+      "nombre": "Equipo 10",
+      "peso": 20,
+      "utilidad": 13
+    },
+    {
+      "id": 11,
+      "nombre": "Equipo 11",
+      "peso": 18,
+      "utilidad": 35
+    },
+    {
+      "id": 12,
+      "nombre": "Equipo 12",
+      "peso": 18,
+      "utilidad": 63
+    },
+    {
+      "id": 13,
+      "nombre": "Equipo 13",
+      "peso": 8,
+      "utilidad": 67
+    },
+    {
+      "id": 14,
+      "nombre": "Equipo 14",
+      "peso": 19,
+      "utilidad": 45
+    },
+    {
+      "id": 15,
+      "nombre": "Equipo 15",
+      "peso": 1,
+      "utilidad": 30
+    },
+    {
+      "id": 16,
+      "nombre": "Equipo 16",
+      "peso": 14,
+      "utilidad": 53
+    },
+    {
+      "id": 17,
+      "nombre": "Equipo 17",
+      "peso": 9,
+      "utilidad": 29
+    },
+    {
+      "id": 18,
+      "nombre": "Equipo 18",
+      "peso": 7,
+      "utilidad": 53
+    },
+    {
+      "id": 19,
+      "nombre": "Equipo 19",
+      "peso": 4,
+      "utilidad": 21
+    },
+    {
+      "id": 20,
+      "nombre": "Equipo 20",
+      "peso": 13,
+      "utilidad": 22
+    },
+    {
+      "id": 21,
+      "nombre": "Equipo 21",
+      "peso": 12,
+      "utilidad": 54
+    },
+    {
+      "id": 22,
+      "nombre": "Equipo 22",
+      "peso": 20,
+      "utilidad": 43
+    },
+    {
+      "id": 23,
+      "nombre": "Equipo 23",
+      "peso": 2,
+      "utilidad": 68
+    },
+    {
+      "id": 24,
+      "nombre": "Equipo 24",
+      "peso": 18,
+      "utilidad": 25
+    },
+    {
+      "id": 25,
+      "nombre": "Equipo 25",
+      "peso": 13,
+      "utilidad": 20
+    },
+    {
+      "id": 26,
+      "nombre": "Equipo 26",
+      "peso": 18,
+      "utilidad": 47
+    },
+    {
+      "id": 27,
+      "nombre": "Equipo 27",
+      "peso": 20,
+      "utilidad": 56
+    },
+    {
+      "id": 28,
+      "nombre": "Equipo 28",
+      "peso": 19,
+      "utilidad": 34
+    },
+    {
+      "id": 29,
+      "nombre": "Equipo 29",
+      "peso": 3,
+      "utilidad": 15
+    },
+    {
+      "id": 30,
+      "nombre": "Equipo 30",
+      "peso": 8,
+      "utilidad": 47
+    },
+    {
+      "id": 31,
+      "nombre": "Equipo 31",
+      "peso": 3,
+      "utilidad": 39
+    },
+    {
+      "id": 32,
+      "nombre": "Equipo 32",
+      "peso": 4,
+      "utilidad": 58
+    },
+    {
+      "id": 33,
+      "nombre": "Equipo 33",
+      "peso": 9,
+      "utilidad": 68
+    },
+    {
+      "id": 34,
+      "nombre": "Equipo 34",
+      "peso": 12,
+      "utilidad": 30
+    },
+    {
+      "id": 35,
+      "nombre": "Equipo 35",
+      "peso": 12,
+      "utilidad": 55
+    },
+    {
+      "id": 36,
+      "nombre": "Equipo 36",
+      "peso": 7,
+      "utilidad": 95
+    },
+    {
+      "id": 37,
+      "nombre": "Equipo 37",
+      "peso": 9,
+      "utilidad": 99
+    },
+    {
+      "id": 38,
+      "nombre": "Equipo 38",
+      "peso": 3,
+      "utilidad": 87
+    },
+    {
+      "id": 39,
+      "nombre": "Equipo 39",
+      "peso": 6,
+      "utilidad": 78
+    },
+    {
+      "id": 40,
+      "nombre": "Equipo 40",
+      "peso": 8,
+      "utilidad": 30
+    },
+    {
+      "id": 41,
+      "nombre": "Equipo 41",
+      "peso": 15,
+      "utilidad": 58
+    },
+    {
+      "id": 42,
+      "nombre": "Equipo 42",
+      "peso": 9,
+      "utilidad": 91
+    },
+    {
+      "id": 43,
+      "nombre": "Equipo 43",
+      "peso": 18,
+      "utilidad": 38
+    },
+    {
+      "id": 44,
+      "nombre": "Equipo 44",
+      "peso": 11,
+      "utilidad": 17
+    },
+    {
+      "id": 45,
+      "nombre": "Equipo 45",
+      "peso": 8,
+      "utilidad": 14
+    },
+    {
+      "id": 46,
+      "nombre": "Equipo 46",
+      "peso": 11,
+      "utilidad": 61
+    },
+    {
+      "id": 47,
+      "nombre": "Equipo 47",
+      "peso": 9,
+      "utilidad": 18
+    },
+    {
+      "id": 48,
+      "nombre": "Equipo 48",
+      "peso": 7,
+      "utilidad": 82
+    },
+    {
+      "id": 49,
+      "nombre": "Equipo 49",
+      "peso": 11,
+      "utilidad": 37
+    },
+    {
+      "id": 50,
+      "nombre": "Equipo 50",
+      "peso": 16,
+      "utilidad": 60
+    },
+    {
+      "id": 51,
+      "nombre": "Equipo 51",
+      "peso": 15,
+      "utilidad": 28
+    },
+    {
+      "id": 52,
+      "nombre": "Equipo 52",
+      "peso": 9,
+      "utilidad": 27
+    },
+    {
+      "id": 53,
+      "nombre": "Equipo 53",
+      "peso": 8,
+      "utilidad": 81
+    },
+    {
+      "id": 54,
+      "nombre": "Equipo 54",
+      "peso": 18,
+      "utilidad": 43
+    },
+    {
+      "id": 55,
+      "nombre": "Equipo 55",
+      "peso": 19,
+      "utilidad": 64
+    },
+    {
+      "id": 56,
+      "nombre": "Equipo 56",
+      "peso": 19,
+      "utilidad": 61
+    },
+    {
+      "id": 57,
+      "nombre": "Equipo 57",
+      "peso": 12,
+      "utilidad": 38
+    },
+    {
+      "id": 58,
+      "nombre": "Equipo 58",
+      "peso": 5,
+      "utilidad": 75
+    },
+    {
+      "id": 59,
+      "nombre": "Equipo 59",
+      "peso": 16,
+      "utilidad": 21
+    },
+    {
+      "id": 60,
+      "nombre": "Equipo 60",
+      "peso": 2,
+      "utilidad": 24
+    },
+    {
+      "id": 61,
+      "nombre": "Equipo 61",
+      "peso": 5,
+      "utilidad": 90
+    },
+    {
+      "id": 62,
+      "nombre": "Equipo 62",
+      "peso": 6,
+      "utilidad": 97
+    },
+    {
+      "id": 63,
+      "nombre": "Equipo 63",
+      "peso": 14,
+      "utilidad": 86
+    },
+    {
+      "id": 64,
+      "nombre": "Equipo 64",
+      "peso": 3,
+      "utilidad": 59
+    },
+    {
+      "id": 65,
+      "nombre": "Equipo 65",
+      "peso": 13,
+      "utilidad": 86
+    },
+    {
+      "id": 66,
+      "nombre": "Equipo 66",
+      "peso": 15,
+      "utilidad": 77
+    },
+    {
+      "id": 67,
+      "nombre": "Equipo 67",
+      "peso": 9,
+      "utilidad": 80
+    },
+    {
+      "id": 68,
+      "nombre": "Equipo 68",
+      "peso": 1,
+      "utilidad": 97
+    },
+    {
+      "id": 69,
+      "nombre": "Equipo 69",
+      "peso": 4,
+      "utilidad": 97
+    },
+    {
+      "id": 70,
+      "nombre": "Equipo 70",
+      "peso": 18,
+      "utilidad": 44
+    },
+    {
+      "id": 71,
+      "nombre": "Equipo 71",
+      "peso": 11,
+      "utilidad": 24
+    },
+    {
+      "id": 72,
+      "nombre": "Equipo 72",
+      "peso": 10,
+      "utilidad": 65
+    },
+    {
+      "id": 73,
+      "nombre": "Equipo 73",
+      "peso": 6,
+      "utilidad": 68
+    },
+    {
+      "id": 74,
+      "nombre": "Equipo 74",
+      "peso": 1,
+      "utilidad": 43
+    },
+    {
+      "id": 75,
+      "nombre": "Equipo 75",
+      "peso": 17,
+      "utilidad": 32
+    },
+    {
+      "id": 76,
+      "nombre": "Equipo 76",
+      "peso": 17,
+      "utilidad": 23
+    },
+    {
+      "id": 77,
+      "nombre": "Equipo 77",
+      "peso": 10,
+      "utilidad": 91
+    },
+    {
+      "id": 78,
+      "nombre": "Equipo 78",
+      "peso": 17,
+      "utilidad": 87
+    },
+    {
+      "id": 79,
+      "nombre": "Equipo 79",
+      "peso": 7,
+      "utilidad": 29
+    },
+    {
+      "id": 80,
+      "nombre": "Equipo 80",
+      "peso": 12,
+      "utilidad": 30
+    },
+    {
+      "id": 81,
+      "nombre": "Equipo 81",
+      "peso": 18,
+      "utilidad": 77
+    },
+    {
+      "id": 82,
+      "nombre": "Equipo 82",
+      "peso": 1,
+      "utilidad": 86
+    },
+    {
+      "id": 83,
+      "nombre": "Equipo 83",
+      "peso": 11,
+      "utilidad": 72
+    },
+    {
+      "id": 84,
+      "nombre": "Equipo 84",
+      "peso": 1,
+      "utilidad": 24
+    },
+    {
+      "id": 85,
+      "nombre": "Equipo 85",
+      "peso": 12,
+      "utilidad": 49
+    },
+    {
+      "id": 86,
+      "nombre": "Equipo 86",
+      "peso": 8,
+      "utilidad": 17
+    },
+    {
+      "id": 87,
+      "nombre": "Equipo 87",
+      "peso": 8,
+      "utilidad": 82
+    },
+    {
+      "id": 88,
+      "nombre": "Equipo 88",
+      "peso": 3,
+      "utilidad": 20
+    },
+    {
+      "id": 89,
+      "nombre": "Equipo 89",
+      "peso": 16,
+      "utilidad": 18
+    },
+    {
+      "id": 90,
+      "nombre": "Equipo 90",
+      "peso": 18,
+      "utilidad": 26
+    },
+    {
+      "id": 91,
+      "nombre": "Equipo 91",
+      "peso": 5,
+      "utilidad": 94
+    },
+    {
+      "id": 92,
+      "nombre": "Equipo 92",
+      "peso": 16,
+      "utilidad": 80
+    },
+    {
+      "id": 93,
+      "nombre": "Equipo 93",
+      "peso": 6,
+      "utilidad": 43
+    },
+    {
+      "id": 94,
+      "nombre": "Equipo 94",
+      "peso": 17,
+      "utilidad": 87
+    },
+    {
+      "id": 95,
+      "nombre": "Equipo 95",
+      "peso": 14,
+      "utilidad": 37
+    },
+    {
+      "id": 96,
+      "nombre": "Equipo 96",
+      "peso": 18,
+      "utilidad": 98
+    },
+    {
+      "id": 97,
+      "nombre": "Equipo 97",
+      "peso": 7,
+      "utilidad": 49
+    },
+    {
+      "id": 98,
+      "nombre": "Equipo 98",
+      "peso": 13,
+      "utilidad": 95
+    },
+    {
+      "id": 99,
+      "nombre": "Equipo 99",
+      "peso": 12,
+      "utilidad": 66
+    },
+    {
+      "id": 100,
+      "nombre": "Equipo 100",
+      "peso": 17,
+      "utilidad": 67
+    }
+  ],
+  "valor_optimo": 2873,
+  "peso_optimo": 250,
+  "seleccion_optima": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "greedy": {
+    "peso": 248,
+    "utilidad": 2860,
+    "cantidad": 42,
+    "seleccion": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "ids": [
+      68,
+      82,
+      74,
+      23,
+      15,
+      38,
+      69,
+      4,
+      84,
+      64,
+      91,
+      61,
+      62,
+      58,
+      32,
+      36,
+      31,
+      39,
+      8,
+      60,
+      48,
+      73,
+      37,
+      87,
+      53,
+      42,
+      9,
+      77,
+      67,
+      13,
+      18,
+      33,
+      98,
+      93,
+      97,
+      88,
+      65,
+      83,
+      7,
+      72,
+      63,
+      19
+    ]
+  },
+  "aleatorio_mejor": {
+    "semilla": 29,
+    "peso": 250,
+    "utilidad": 1663,
+    "cantidad": 31
+  },
+  "aleatorio_todos": [
+    {
+      "semilla": 0,
+      "peso": 250,
+      "utilidad": 1220,
+      "cantidad": 26
+    },
+    {
+      "semilla": 1,
+      "peso": 250,
+      "utilidad": 1350,
+      "cantidad": 25
+    },
+    {
+      "semilla": 2,
+      "peso": 250,
+      "utilidad": 1159,
+      "cantidad": 25
+    },
+    {
+      "semilla": 3,
+      "peso": 250,
+      "utilidad": 1533,
+      "cantidad": 26
+    },
+    {
+      "semilla": 4,
+      "peso": 250,
+      "utilidad": 1202,
+      "cantidad": 23
+    },
+    {
+      "semilla": 5,
+      "peso": 250,
+      "utilidad": 1297,
+      "cantidad": 28
+    },
+    {
+      "semilla": 6,
+      "peso": 250,
+      "utilidad": 1061,
+      "cantidad": 24
+    },
+    {
+      "semilla": 7,
+      "peso": 250,
+      "utilidad": 1408,
+      "cantidad": 27
+    },
+    {
+      "semilla": 8,
+      "peso": 250,
+      "utilidad": 1396,
+      "cantidad": 25
+    },
+    {
+      "semilla": 9,
+      "peso": 250,
+      "utilidad": 1402,
+      "cantidad": 27
+    },
+    {
+      "semilla": 10,
+      "peso": 250,
+      "utilidad": 1298,
+      "cantidad": 26
+    },
+    {
+      "semilla": 11,
+      "peso": 250,
+      "utilidad": 1250,
+      "cantidad": 24
+    },
+    {
+      "semilla": 12,
+      "peso": 250,
+      "utilidad": 1247,
+      "cantidad": 26
+    },
+    {
+      "semilla": 13,
+      "peso": 250,
+      "utilidad": 1050,
+      "cantidad": 24
+    },
+    {
+      "semilla": 14,
+      "peso": 250,
+      "utilidad": 1430,
+      "cantidad": 25
+    },
+    {
+      "semilla": 15,
+      "peso": 250,
+      "utilidad": 1191,
+      "cantidad": 23
+    },
+    {
+      "semilla": 16,
+      "peso": 250,
+      "utilidad": 1649,
+      "cantidad": 28
+    },
+    {
+      "semilla": 17,
+      "peso": 250,
+      "utilidad": 1201,
+      "cantidad": 24
+    },
+    {
+      "semilla": 18,
+      "peso": 250,
+      "utilidad": 1396,
+      "cantidad": 27
+    },
+    {
+      "semilla": 19,
+      "peso": 250,
+      "utilidad": 1362,
+      "cantidad": 24
+    },
+    {
+      "semilla": 20,
+      "peso": 250,
+      "utilidad": 1292,
+      "cantidad": 25
+    },
+    {
+      "semilla": 21,
+      "peso": 250,
+      "utilidad": 1331,
+      "cantidad": 25
+    },
+    {
+      "semilla": 22,
+      "peso": 250,
+      "utilidad": 1155,
+      "cantidad": 21
+    },
+    {
+      "semilla": 23,
+      "peso": 250,
+      "utilidad": 1458,
+      "cantidad": 30
+    },
+    {
+      "semilla": 24,
+      "peso": 250,
+      "utilidad": 1160,
+      "cantidad": 24
+    },
+    {
+      "semilla": 25,
+      "peso": 250,
+      "utilidad": 1468,
+      "cantidad": 29
+    },
+    {
+      "semilla": 26,
+      "peso": 250,
+      "utilidad": 1641,
+      "cantidad": 30
+    },
+    {
+      "semilla": 27,
+      "peso": 250,
+      "utilidad": 1465,
+      "cantidad": 25
+    },
+    {
+      "semilla": 28,
+      "peso": 250,
+      "utilidad": 1282,
+      "cantidad": 26
+    },
+    {
+      "semilla": 29,
+      "peso": 250,
+      "utilidad": 1663,
+      "cantidad": 31
+    }
+  ],
+  "aleatorio": {
+    "min": 1050,
+    "max": 1663,
+    "media": 1333.9
+  },
+  "propuestas": {
+    "nada": {
+      "peso": 0,
+      "utilidad": 0,
+      "factible": true
+    },
+    "primeros10": {
+      "peso": 95,
+      "utilidad": 399,
+      "cantidad": 10,
+      "factible": true
+    },
+    "todos100": {
+      "peso": 1067,
+      "utilidad": 5295,
+      "cantidad": 100,
+      "factible": false
+    }
+  }
+}
